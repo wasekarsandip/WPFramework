@@ -12,7 +12,6 @@ public class LoginTestPixabay extends BaseClass {
 	{
 		logger=report.createTest("Login Test");
 		LoginPage login = PageFactory.initElements(driver,LoginPage.class);
-		
 		login.loginToPixabay(excel.getStingData(0,0,0),excel.getStingData(0,0,1));
 
 	}
